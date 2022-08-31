@@ -1,0 +1,175 @@
+
+/*Cabecera*/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: #E5E5E5;
+}
+
+.logo-alura {
+    padding: 30px 1px;
+}
+
+
+/*main*/ 
+
+main{
+    width: 100%;
+    height: 800px;
+    background: #E5E5E5;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+section{
+    width: 40%;
+    height: 100%;
+    background: #E5E5E5;
+    
+    
+}
+
+.sec1 {
+    width: 60%;
+    border-radius: 20px;
+}
+
+.area{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 30px;
+    resize: none;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.botones-principal {
+    width: 40%;
+    height: 20%;
+}
+
+.boton-enc {
+    background: darkblue;
+    color: #E5E5E5;
+
+}
+
+.boton-desc {
+    background: #E5E5E5;
+    color: black;
+
+}
+
+.boton-enc, .boton-desc {
+    width: 50%;
+    height: 75px;
+    position: relative;
+    left: 94%;
+    margin: 7px;
+    font-size: 17px;
+    border-radius: 60px;
+}
+
+.boton-enc:hover, .boton-desc:hover {
+    background: orange;
+    transition: 1s;
+}
+
+.boton-enc:active, .boton-desc:active {
+    background: skyblue;
+}
+
+/*Segunda mitad de la página*/
+
+.sec2{
+    width: 30%;
+    background: white;
+    border-radius: 8px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.imagen-mun{
+    padding: 180px 15px 0px 20px; 
+    margin-right: 40px;
+    box-sizing: border-box;
+}
+
+.titulo-secundario{
+    text-align: center;
+}
+
+.texto-entrada {
+    margin-top:100px;
+    margin-bottom: 130px;
+    
+}
+
+
+section p {
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+.resultado { 
+ width: 100%;
+ height: 70%;
+ padding: 30px;
+ box-sizing: border-box;
+ font-weight: bold;
+ margin: auto;
+}
+
+.texto-resultado {
+    width: 328px;
+    height: 249px;
+    resize: none;
+}
+
+/*.copiar {
+    width: 100%;
+    height: 15%;
+    margin: auto; 
+}*/
+
+.boton-copiar {
+    width: 20%;
+    height: 15%;
+    background: darkblue;
+    color: white;
+    border-radius: 60px;
+    display: block;
+    margin: auto;
+    
+}
+
+/*footer*/
+
+footer{
+   display: inline-block;
+    width: 100%;
+    height: 100px;
+    padding-top: 100px;
+    background: #E5E5E5;
+    text-align: center;
+    font-weight: bold;
+
+    
+}
+
+.ocultar {
+    display: none;
+}

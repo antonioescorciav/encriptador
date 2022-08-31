@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <title> Encriptador </title>
+    </head>
+    <body>
+            <header>
+                
+                <div>
+                    <img class="logo-alura" src="Imagenes/Logo.png" alt="logo-alura">
+                    
+                </div>
+                
+            
+            </header>
+            
+            <main>
+                <section class="sec1">    
+                    <textarea class="area" placeholder="Ingrese palabras por favor"></textarea>
+                    <div class="botones-principal">
+                        <input class="boton-enc" type="button" value="Encriptar">
+                        <input class="boton-desc" type="button" value="Desencriptar">
+                    </div>       
+                </section>
+
+                <section class="sec2">
+                    <div class="imagen-mun" >
+                        <img src="Imagenes/Muñeco.png" alt="">
+                    </div>
+                    <div>
+                        <h2 class="titulo-secundario">Ningún mensaje fue encontrado</h2>
+                    </div>    
+                    <div class="texto-entrada">
+                        <p>Ingrese el texto que deseas encriptar o desencriptar</p>
+                    </div>
+
+                    <div class="resultado">
+                        <h2>Mensaje: </h2>
+                        <textarea class="texto-resultado" ></textarea>
+                    </div>
+
+                    <div class="copiar">
+                        <input type="button" class="boton-copiar" value="copiar">
+                    </div>
+
+                </section>
+
+            </main>
+
+            <footer>
+                
+                <div>
+                    <p>  &#169 Copyright Alura </p>
+                </div>
+
+            </footer>
+
+            <script src="encriptador.js"></script>
+    </body>
+</html>
